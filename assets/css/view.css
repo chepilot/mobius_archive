@@ -1,0 +1,145 @@
+.view-area #viewportLayout{
+    z-index: 0;
+}
+
+.view-area .viewportMenu{
+    position: absolute!important;
+    right:10px;
+}
+
+.view-area .viewport-menu-button{
+    background: #eee;
+    color: #333;
+    position: absolute;
+    top: -32px;
+    right: 0px;
+    z-index: 99999999999 !important;
+}
+
+.view-area #threeViewport {
+    padding: 0;
+    margin: 0;
+    /*line-height:0;*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.view-area #topoViewport {
+    height:0;
+    width:0;
+}
+
+.view-area .codeViewport{
+    width: 100%;
+    top:32px;
+    left:0;
+    bottom: 0;
+    position: absolute;
+}
+
+.view-area .dataViewport{
+    height: 100%;
+    width: 100%;
+    left:0;
+    position: absolute;
+    bottom: 0;
+    top:32px;
+}
+
+.view-area .dataGrid{
+    width: 100%;
+    bottom:0;
+    font-size: 12px
+}
+
+.view-area .dataGrid-main{
+    height: calc(100% - 74px)!important;
+    width: 100%;
+    bottom: 0 !important;
+    position: absolute;
+    font-size: 12px;
+    top:74px;
+}
+
+.view-area #topoContainer{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.tabArea{
+    position: relative;
+    /*left: 9px;*/
+    height: 100%;
+    width: 100%;
+}
+
+
+/*todo temp fix */
+.view-area  .monitor .stretch{
+    top: 0;
+}
+
+.view-area .monitor .ui-layout-column .ui-splitbar{
+    border:0;
+}
+
+.view-area .monitor .console{
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    height: 100%;
+    width:100%;
+    overflow: auto;
+    position: absolute;
+    margin-top:1px
+}
+
+.view-area #clear{
+    position: absolute;
+    cursor: pointer;
+    white-space: nowrap;
+    right: 0;
+    top:0;
+    display: inline-block;
+}
+
+/*data table*/
+.md-tab {
+    padding: 4px 24px !important;
+    width: 150px !important;
+    max-width: 1000px !important;
+}
+
+
+.nav > li > a {
+    padding: 6px 15px !important;
+    width:100px !important;
+    border-radius: 0 !important;
+    text-align: center;
+    color: #888 !important;
+    font-size: 13px;
+}
+
+.nav-tabs > li.active > a {
+    color: #555!important;
+}
+
+
+.tab-content{
+    padding-top: 4px !important;
+}
+
+
+
+
+
+
+
